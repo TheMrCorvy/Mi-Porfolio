@@ -1,0 +1,109 @@
+/*************************************section1*************************************/
+#section1 {
+	background-color: #1565c0;
+	position: relative;
+	height: calc(100vh - 3.4rem);
+	width: 100%;
+	color: white;
+	box-shadow: 0 3px 6px 1px #616161;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+}
+
+.datos {
+	position: absolute;
+	top: 0;
+	left: 3%;
+	flex-direction: column;
+	letter-spacing: 2px;
+	font-size: 1.1rem;
+}
+
+.datos a{
+	color: #fff;
+}
+
+/*************************************section2 y section5*************************************/
+
+.clow-card{
+	margin: 0.5rem 0.5rem;
+	transition: 0.4s;
+	background: #F6F6F6;
+	padding: 0 1rem;
+}
+
+.sakura-card{
+	margin: 0.5rem 0.5rem;
+	transition: 0.4s;
+	background: #424242;
+	padding: 0 1rem;
+}
+
+.sakura-card:hover{
+	transform: scale(1.03);
+	box-shadow: 0 0 7px 3px #868686;
+}
+
+.clow-card:hover{
+	transform: scale(1.03);
+	box-shadow: 0 0 7px 3px #A0A0A0;
+}
+
+/*************************************section3*************************************/
+
+.descarga{
+	background: #3F51B5;
+	margin: 1em 0;
+	padding: 0.3rem 1rem;
+}
+
+.descarga:hover{
+	background: #3850D2;
+}
+
+.cero{
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.cero-top{
+	margin-top: 0;
+	padding: 0;
+}
+
+/*************************************section4*************************************/
+
+.title-secundario{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;	
+}
+
+.texto-interno{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+}
+
+.seraph{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-top: 0;
+}
+
+/*************************************footer*************************************/
+
+footer {
+	padding: 2.2rem;
+	position: relative;
+}
+
+.version{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}

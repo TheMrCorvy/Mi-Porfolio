@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1190px){
+
+	.formulario div, .formulario div form{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.seraph{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	
+	.blur{
+		filter: blur(0px);
+	}
+
+	.grid-3{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.topnav{
+		display: block;
+	}
+
+	.topnav .form-container {
+		float: none;
+	}
+	.topnav a, .nav-btn {
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 830px){
+	#DescargaCV{
+		margin: 0;
+
+		margin-top: 2.3em;
+		margin-bottom: 1rem;
+	}
+}
+
+@media only screen and (max-width: 660px){
+
+	#DescargaCV{
+		margin: 1em 0;
+	}
+
+	.grid-3 {
+    	grid-template-columns: 1fr;
+	}
+
+	.grid-2 {
+    	grid-template-columns: 1fr;
+	}
+
+	.services div {
+    	padding: 1.4rem 1rem;
+	}
+
+	.about-toggle{
+		display: none;
+	}
+
+	.seraph{
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.fuzetsu{
+		flex-direction: column;
+	}
+
+	.datos{
+		letter-spacing: normal;
+	}
+}
